@@ -1,8 +1,8 @@
 //ES6+
 
 // old interface
-function Shipping() {
-    this.request = function (zipStart, zipEnd, weight) {
+class Shipping{
+    request(zipStart, zipEnd, weight) {
         // ...
         return "$49.75";
     }
